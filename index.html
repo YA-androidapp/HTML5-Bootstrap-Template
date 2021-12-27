@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
     <style>
+        /* Alerts */
         .alert {
             display: none;
         }
@@ -82,7 +83,7 @@
             </button>
 
             <button type="button" class="btn btn-warning position-relative" id="hide-alert">
-                Inbox
+                Clear alerts
                 <!-- Badges -->
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                     99+
@@ -171,9 +172,21 @@
         </div>
     </div>
 
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="bg-light p-3 p-sm-5 my-4 rounded">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
     <!-- Card -->
-    <div class="container m-5">
-        <div class="row">
+    <div class="container my-5">
+        <div class="row p-1">
             <div class="col-4 offset-2">
                 <div class="card">
                     <div class="card-header">
@@ -186,8 +199,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-3 offset-1">
+                <div class="card">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
                         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -205,9 +218,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 offset-2">
-                <div class="card" style="width: 18rem;">
+        <div class="row p-1">
+            <div class="col-2 offset-2">
+                <div class="card">
                     <div class="card-header">
                         Featured
                     </div>
@@ -221,7 +234,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                     <div class="card-header">Header</div>
                     <div class="card-body">
@@ -231,15 +244,8 @@
                             content.</p>
                     </div>
                 </div>
-                <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Warning card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                    </div>
-                </div>
+            </div>
+            <div class="col-2">
                 <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
                     <div class="card-header">Header</div>
                     <div class="card-body">
@@ -249,6 +255,8 @@
                             content.</p>
                     </div>
                 </div>
+            </div>
+            <div class="col-2">
                 <div class="card border-success mb-3" style="max-width: 18rem;">
                     <div class="card-header">Header</div>
                     <div class="card-body text-success">
